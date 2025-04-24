@@ -13,6 +13,7 @@ void setup() {
 void loop() {
   int adcValue = analogRead(adcPin);   // Lê valor analógico (0-4095)
 
+  // Sinal interno gerado para teste
   //float t = micros()/1.0e6;
   //float adcValue = sin(2*PI*60*t) + 2*sin(2*PI*5*60*t);
   //int xn = (adcValue + 1.5)*255 / 3;
